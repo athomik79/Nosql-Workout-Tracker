@@ -18,7 +18,8 @@ app.use(express.static('public'));
 // Mongodb
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
   useNewUrlParser: true,
-  useFindAndModify: false
+  useFindAndModify: false,
+  useMongoClient: true
 });
 
 //Creating Routes
