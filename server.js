@@ -1,10 +1,14 @@
 // Dependencies
 const express = require("express");
+const logger = require("morgan")
 const mongoose = require("mongoose");
 
 // Set up Express APP
 const PORT = process.env.PORT || 3000;
+const db = require("./models");
 const app = express();
+
+app.use(logger("dev"));
 
 // Set up app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
@@ -18,9 +22,8 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
 });
 
 //Creating Routes
-app.get('/', (req, res) => {
-    res.send("Hello")
-});
+app.use(require("./routes/api.js"));
+app.use(require("./routes/view.js"));
 // app.use(require("./routes/api.js"));
 
 // Start server

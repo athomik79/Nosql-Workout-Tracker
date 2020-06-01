@@ -44,8 +44,7 @@ const workoutSchema = new Schema(
       // include any virtual properties when data is requested
       virtuals: true
     }
-  }
-);
+  }, {collection: 'workout'});
 
 // adds a dynamically-created property to schema
 workoutSchema.virtual("totalDuration").get(function() {
