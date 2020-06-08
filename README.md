@@ -1,51 +1,45 @@
-# Unit 17 Nosql Homework: Workout Tracker
+# Radical README
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+<img src="https://img.shields.io/badge/License-MIT-yellow.svg">
 
-## User Story
+<img src="https://avatars.githubusercontent.com/u/55367871?" height="60px" width="60px">
 
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+### Username:
 
-## Business Context
+athomik79
 
-A consumer will reach their fitness goals quicker when they track their workout progress.
+### Project Title:
 
-## Acceptance Criteria
+Nosql Workout Tracker
 
-When the user loads the page, they should be given the option to create a new workout, or continue with their last workout.
+### Link to Deployed project
+[Workout Tracker App](https://intense-shore-21076.herokuapp.com/?id=5ede7894cd35c80017cc786a)
 
-The user should be able to:
+### Description:
 
-  * Add exercises to a previous workout plan.
+A workout tracker app built with node.js, express, and MongoDB
 
-  * Add new exercises to a new workout plan.
+### Installation:
 
-  * View multiple the combined weight of multiple exercises on the `stats` page.
+Install the required dependencies. Connect to MongoDB and use the seed data to seed the DB. Run the project using the server.js file.
 
-## Commit Early and Often
+### Usage:
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+Add a new workout by clicking on the "New Workout" button. Choose the type of exercise and specify the input. Add the expercise using the "Add Exercise Button". Click the "Complete Button once you have added you r exercise. To continue adding to the workout, click the "Continue Workout" button. View your logged workouts by clicking on the "Dashboard" button.
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+### License:
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+MIT
 
-Follow these guidelines for committing:
+### Contributing:
 
-* Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+athomik79
 
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+### Tests:
 
-* Don't commit half done work, for the sake of your collaborators (and your future self!)
+n/a
 
-* Test your application before you commit to ensure functionality at every step in the development process
+### Questions:
 
-We would like you to have well over 200 commits by graduation, so commit early and often!
+Does it work?
 
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URL to the deployed application
-
-* The URL to the Github repository

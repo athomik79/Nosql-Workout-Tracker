@@ -1,4 +1,4 @@
 node_modules/
+supplemental/
 .DS_Store
 package-lock.json
-supplemental
