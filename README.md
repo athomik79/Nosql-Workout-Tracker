@@ -1,4 +1,5 @@
 # Radical README
+A CLI README generator for github projects
 
 <img src="https://img.shields.io/badge/License-MIT-yellow.svg">
 
